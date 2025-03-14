@@ -6,7 +6,7 @@ public class WanderState : MonoBehaviour
 {
     private FSM fsm;
     private NavMeshAgent agent;
-    private float wanderRadius = 200f; 
+    private float wanderRadius = 50f; 
     private bool isWaiting = false;
     private Vector3 lastDestination;
 
